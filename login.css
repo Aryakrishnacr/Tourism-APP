@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    width:100px;
+    height: 100vh;
+    background:url(img/login.jpg);
+    font-family: sans-serif;
+}
+#login-form{
+    width: 300px;
+    
+    padding: 40px 40px  ;
+    background:rgba(255,255,255,1);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 15px 20px rgba(0, 0,0,.2);
+}
+#login-form h2{
+    margin: 0 0 40px;
+    padding: 0;
+    text-align: center;
+}
+#login-form #form-input{
+    position: relative;
+    margin: 20px 0;
+}
+#login-form #form-input input{
+    outline: none;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.5);
+    background: transparent;
+    font-size: 18px;
+}
+#login-form #form-input input[type="submit"]
+{
+    background:#e91e63;
+    color: #fff;
+    border: none;
+    cursor:pointer;
+    text-transform: uppercase;
+}
+#login-form #form-input input[type="submit"]:hover
+{
+    background:#0090ff;
+}
+#login-form #forget{
+    display:inline-block;
+    margin-top: 30px;
+    color:blue;
+}
+#login-form #signup{
+    text-align: right;
+    display: block;
+    margin-top: 15px;
+    color: blue;
+    
+}

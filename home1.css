@@ -1,0 +1,15 @@
+body{
+    font-family: "poppins",sans-serif;
+}
+header{
+    position: relative;
+    z-index: 1000000;
+
+}
+p{
+    font-size: 1.15rem;
+
+}
+.scrolled{
+    background: #000;
+}
