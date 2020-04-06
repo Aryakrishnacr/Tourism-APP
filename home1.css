@@ -1,15 +1,80 @@
 body{
     font-family: "poppins",sans-serif;
+    padding-top: 50px;
+    background: black;
 }
-header{
-    position: relative;
-    z-index: 1000000;
 
+#home{
+    margin-bottom: 0px;
 }
+
 p{
     font-size: 1.15rem;
-
 }
 .scrolled{
     background: #000;
 }
+#navbar{
+color: black;
+
+
+}
+#logo{
+    height: 70px;
+
+}
+.navbar-nav{
+    padding-left: 30px;
+    margin: 0;
+    display: inline-flex;
+}
+#navbar-toggler{
+    border-color: chartreuse;
+}
+
+
+a.nav-link{
+    padding: 50px;
+    margin: 60px;
+    display: inline-flex;
+    
+}
+a.btn{
+    display: flex;
+    justify-content: center;
+}
+.navbar-toggler{
+    display: inline;
+          padding-left: 30px;
+          margin: 20px;
+          font-style: normal;
+          font-weight: bolder;
+          font-variant: small-caps;
+          font-size: 20px;
+
+}
+#more{
+    
+    display:flex;
+    justify-content: center;
+}
+#nav-link{
+    display: inline;
+    padding-left: 30px;
+    margin: 20px;
+    font-style: normal;
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-size: 20px;
+    color:white;
+}
+#carouselExampleControls{
+    padding-top: 0px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+} 
+
+
