@@ -1,31 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>login</title>
-    <link rel="stylesheet" href="login.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="signup.css">
 </head>
-<body  >
-    <div id="login-form" class="login-form">
-        <h2>Sign Up</h2>
-        <div id="form-input" class="form-input">
-            <input type="text" name="" placeholder="Email">
+
+<body>
+    <form name="RegForm" action="" method="POST" onsubmit="return validForm(); " novalidate>
+        <div id="login-form" class="login-form">
+            <h2>Sign Up</h2>
+            <div id="form-input" class="form-input">
+                <input type="text" value=""  placeholder="Email" id="email">
+                <span  class="error" id="mailerror"></span>
+            </div>
+            <div id="form-input" class="form-input">
+                <input type="text" name="" placeholder="Mobile number" id="mob">
+                <span  class="error"  id="moberror"></span>
+            </div>
+            <div id="form-input" class="form-input">
+                <input type="password" name="pw1" placeholder="password" id="password">
+                <span  class="error"  id="passerror"></span>
+            </div>
+            <div id="form-input" class="form-input">
+                <input type="password" name="pw2" placeholder="confirm password" id="conpassword">
+                <span  class="error"  id="conpasserror"></span>
+            </div>
+            <div id="form-input" class="form-input">
+                <input type="submit" name="" value="sign up">
+                
+            </div>
+            <h5>Do you have an account?</h5>
+            <a href="login.html" id="forget" class="forget">Login</a>
+
         </div>
-        <div id="form-input" class="form-input">
-            <input type="password" name="" placeholder="password">
-        </div>
-        <div id="form-input" class="form-input">
-            <input type="password" name="" placeholder="confirm password">
-        </div>
-        <div id="form-input" class="form-input">
-            <input type="submit" name="" value="sign up">
-        </div>
-        <h5>Do you have an account?</h5>
-        <a href="login.html" id="forget"  class="forget" >Login</a>
-    
-    </div>
-    
-    
+    </form>
+
 </body>
+<script src="signup1.js"></script>
+
 </html>
