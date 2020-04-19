@@ -7,13 +7,16 @@
     <link rel="stylesheet" href="login.css">
 </head>
 <body  >
+    <form name="RegForm" action="" method="POST" onsubmit="return validForm(); "></form>
     <div id="login-form" class="login-form">
         <h2>Login</h2>
         <div id="form-input" class="form-input">
             <input type="text" name="" placeholder="Email">
+            <span class="error" id="mailerror"></span>
         </div>
         <div id="form-input" class="form-input">
             <input type="password" name="" placeholder="password">
+            <span class="error" id="passerror"></span>
         </div>
         <div id="form-input" class="form-input">
             <input type="submit" name="" value="Login">
@@ -23,7 +26,8 @@
         <a href="signup.html" id="forget"  class="forget" >Sign Up</a>
     
     </div>
-    
+  </form>  
     
 </body>
+<script src="login.js"></script>
 </html>
