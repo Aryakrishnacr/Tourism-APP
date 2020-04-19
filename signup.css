@@ -3,7 +3,7 @@ body{
     padding: 0;
     width:100px;
     height: 100vh;
-    background:url(img/login.jpg);
+     background:url(img/login.jpg); 
     font-family: sans-serif;
 }
 #login-form{
@@ -59,4 +59,8 @@ body{
     margin-top: 15px;
     color: blue;
     
+}
+.error{
+    color: red;
+    text-align: center;
 }
